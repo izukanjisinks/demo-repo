@@ -36,7 +36,7 @@
    // sayHello();
    include('config/db_connect.php');
 
-   //get all pizzas
+ 
    $sql = 'SELECT title, ingredients, id FROM pizzas ORDER BY create_at';
 
    $result = mysqli_query($conn, $sql);
