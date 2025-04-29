@@ -41,7 +41,6 @@
 
    $result = mysqli_query($conn, $sql);
 
-   //fetch results rows as an array
 
    $pizzas = mysqli_fetch_all($result, MYSQLI_ASSOC);
 
